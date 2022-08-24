@@ -1,0 +1,62 @@
+body {
+  color:
+    rgb(113, 240, 227);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(228,161,246);
+}
+
+div {
+  color: rgb(46, 6, 59);
+  min-height: 11vh;
+  width: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: rgb(16, 16, 80)
+}
+
+h3 {
+  color: blue;
+  font-size: 22em;
+}
+
+img {
+  display: flex;
+  padding: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 130px;
+}
+
+a {
+  color: rgb(31, 92, 72)
+}
+
+ol {
+  list-style: upper-roman;
+  padding-left: -25mm;
+  margin-bottom: 0.4907in;
+  font-size: larger;
+  display: block;
+  justify-content: space-evenly;
+}
+
+ul {  list-style: circle;
+  padding-left: -25mm;
+  margin-bottom: 0.4907in;
+  font-size: larger;
+  display: block;
+  justify-content: space-evenly;
+}
+
+.contrast {
+  background-color: rgb(156,134,217);
+}
+
+ol:hover {
+  color: rgb(146,180,252);
+  font-size: x-large;
+  transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
